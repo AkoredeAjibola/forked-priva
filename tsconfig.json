@@ -27,7 +27,10 @@
       "@data/*": ["data/*"],
       "@hooks/*": ["hooks/*"],
       "@redux/*": ["redux/*"],
-      "@services/*": ["services/*"]
+      "@context/*": ["context/*"],
+      "@services/*": ["services/*"],
+      "@types/*": ["types/*"],
+      "@schemas/*": ["schemas/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
