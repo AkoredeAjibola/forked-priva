@@ -52,7 +52,7 @@ function MdMenu({
                             <ArrowLeftIcon className="w-4 text-secondary-100 border-l border-secondary-100" />
                         </button>
                     </div>
-                    <div className="flex-1 flex flex-col overflow-y-auto h-full">
+                    <div className="flex-1 flex flex-col overflow-y-auto h-full sidebar">
                         <nav className="flex-1 px-2 py-4 space-y-1">
                             {navigation.slice(0, -2).map((item) => (
                                 <Link

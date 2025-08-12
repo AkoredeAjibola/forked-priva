@@ -85,7 +85,7 @@ function MobileMenu({
                             <div className="flex-shrink-0 flex items-center px-4">
                                 <Image height={80} width={100} src={logo} alt="logo" />
                             </div>
-                            <div className="mt-5 flex-1 h-0 flex flex-col justify-between overflow-y-auto">
+                            <div className="mt-5 flex-1 h-0 flex flex-col justify-between overflow-y-auto sidebar">
                                 <nav className="px-2 space-y-1">
                                     {navigation.slice(0, -2).map((item) => (
                                         <Link
