@@ -14,7 +14,7 @@ const OverviewTab = () => {
                 ].map((item, idx) => (
                     <div key={idx} className="flex justify-between items-center py-2 border-b last:border-b-0">
                         <span className="text-sm text-gray-700">{item}</span>
-                        <span className="text-xs bg-green-100 text-black px-2 py-0.5 rounded-full">Active</span>
+                        <span className="text-xs bg-green-100 opacity-60 text-black px-2 py-0.5 rounded-full">Active</span>
                     </div>
                 ))}
             </div>
