@@ -19,6 +19,7 @@
 
 # production
 /build
+temp_auto_push.bat
 
 # misc
 .DS_Store
@@ -40,3 +41,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .next
+.gitignore
+branch_structure.json

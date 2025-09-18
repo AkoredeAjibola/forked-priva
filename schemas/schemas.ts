@@ -23,3 +23,13 @@ export const paymentSchema = z.object({
   cvc: z.string().min(3, "CVC is required").max(4),
   cardholder: z.string().min(1, "Cardholder name is required"),
 });
+
+export const addPatientSchema = z.object({
+  name: z.string().min(1, "Name is required"),
+  age: z.number().min(1, "Age is required"),
+  gender: z.string().min(1, "Gender is required"),
+  phone: z.string().min(10, "Phone number must be at least 10 digits"),
+  email: z.string().email("Invalid email"),
+  address: z.string().min(1, "Address is required"),
+  condition: z.string().min(1, "Condition is required"),
+});
